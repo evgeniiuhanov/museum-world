@@ -1,0 +1,70 @@
+/* Основной шрифт сайта */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовки */
+h1, h2 {
+    font-weight: 700;
+}
+
+/* Карточки музеев */
+.card {
+    transition: 0.3s;
+}
+
+/* фон сайта */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* шапка сайта */
+header {
+    background: linear-gradient(90deg,#1c1f24,#2b2f36);
+}
+
+/* Эффект при наведении */
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* контейнер карточек */
+.row {
+    justify-content: center;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #1f2328;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-dark {
+    background-color: #2b2f36;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+}
+
+main {
+    margin-top: 60px;
+}
